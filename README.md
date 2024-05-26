@@ -1,9 +1,9 @@
 # Team Proect "Cafe Journey Web Application"
-Course: CISC 593-90- O-2023/Late Fall - Software Verification & Validation
-Professor:  Abrar Qureshi, Ph.D. (Professor of CS & Software Engineering)
-Students: Team 1 (Evgenii Kharitonov, Edwin Herrera, Haiying Xu, Leiyu Yue)
+Course: CCISC 594-90- O-2024/Late Spring - Software Testing Prin & Techniques
+Professor:  Khalid Lateef (Professor of Computer Science)
+Students: Team 1 (Evgenii Kharitonov)
 
-On the root folder you can find the working FILES for the project. DON'T change the files in the root folder. Working files to experiment "CafeJourney" and number of version you can find in the folder "development".
+On the root folder you can find the working FILES for the project. DON'T change the files in the root folder. Working files to experiment "CafeJourney" and number of version.
 
 Running IPYNB (Jupyter Notebook) files directly in GitHub Codespaces involves setting up a Python environment and ensuring that Jupyter is installed and configured correctly:
 
