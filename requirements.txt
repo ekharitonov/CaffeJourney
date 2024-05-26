@@ -1,0 +1,5 @@
+Flask==3.0.0
+Werkzeug==3.0.1
+Folium==0.13.0
+pandas==1.4.3
+gunicorn==20.1.0

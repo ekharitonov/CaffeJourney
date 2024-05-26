@@ -1,0 +1,53 @@
+Overview
+The "Cafe Journey Web Application" is designed to enhance the café and restaurant selection experience in City of Harrisburg, PA. It provides an interactive map displaying various establishments with color-coded markers based on their average price range. This application aims to assist users in making informed decisions that align with their budget preferences. Users interested in café and restaurant average meal prices will find this information easily available by visiting this website. 
+ 
+Product Functions
+1. Interactive Map Visualization: Displaying all café/restaurants in Harrisburg with color-coded markers.
+2. Price Category Visualization: Differentiating establishments based on price categories using color codes.
+3. Detailed Information on Demand: Providing popup information windows with details about each establishment.
+4. User-Friendly Interface: Offering an easy-to-use web interface with clear markers and information.
+ 
+Operating Environment
+- Hardware: Accessible on standard computing devices with internet connectivity.
+- Software: Compatible with major web browsers including Edge, Chrome, and Safari.
+- Development Environment: The application is developed using Python with Folium for map visualization.
+ 
+System Features
+1. Map Visualization (SF-001): 
+The system shall provide a complete map of Harrisburg city with visual markers.
+The system shall allow the user to select any marker on the map.
+2. Price-Based Categorization (SF-002): 
+The system shall categorize café/restaurants based on their average meal price range.
+The system shall display a green marker for an average meal price up to $50.
+The system shall display a yellow marker for an average meal price between $50 and $70.
+The system shall display a red marker for an average meal price above $70.
+The system shall display a gray marker for an unknown average meal price.
+
+3. Information Accessibility (SF-003): 
+The system shall offer detailed information about each establishment upon marker interaction.
+The system shall provide detailed information, café/restaurant (name, address, average price) upon a left mouse click on a marker.
+The system shall allow website use without the login process.
+ 
+Quality Requirements
+- User Experience: The application shall be intuitive and easy to navigate for users of varying technical backgrounds.
+- Performance: The application shall load and respond promptly to user interactions.
+- Reliability: The system shall consistently provide accurate and up-to-date information.
+- Scalability: The system shall allow for additions and removals of café restaurants on the map.
+- Security: The system shall allow users to only read café/restaurant information.
+- Developer Standards: The code shall adhere to best practices in Python programming for maintainability and scalability.
+ 
+Use Case: Viewing Café/Restaurant Details
+- Use Case ID: UC-001
+- Use Case Name: View Café/Restaurant Details
+- Actors: End User
+- Description: Users can view detailed information about a café/restaurant by interacting with its map marker.
+- Preconditions: The user has accessed the web application, and the map is loaded.
+- Postconditions: The user receives detailed information about the selected establishment.
+- Normal Flow:
+  1. User navigates to the map on the web application.
+  2. User clicks on a color-coded marker.
+  3. The application displays a popup with the establishment's name, address, and average price.
+- Alternative Flows:
+  - If the marker data is not available, display an error message.
+- Exception Flows:
+  - If the internet connection is lost, display a connectivity error message.

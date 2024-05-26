@@ -1,0 +1,49 @@
+Project Proposal for Cafe Journey Web Application
+1. Introduction
+Cafe Journey is a web application designed to provide an interactive map of café/restaurants in Harrisburg City. It aims to enhance the user's experience in selecting café/restaurants based on their budget. The application's unique feature is its ability to display café/restaurants with color-coded markers indicating different price ranges, allowing users to make informed choices that align with their personal budget.
+
+2. User Requirements
+ 2.1 User Interface:
+- A web map of Harrisburg city displaying cafe/restaurants with color-coded markers.
+- Green marker: Average price up to 50$.
+- Yellow marker: Average price between 50$ and 70$.
+- Red marker: Average price above 70$.
+- Clickable markers to view detailed information about each café/restaurant (name, address, average price).
+
+2.2 User Characteristics:
+- Target users include individuals of any age, gender, and educational background with basic computer and internet skills.
+
+2.3 Assumptions and Dependencies:
+- Requires internet access to function.
+
+3. System Requirements
+3.1 Functional Requirements:
+- Access a complete map of Harrisburg city.
+- Visualization of café/restaurants on the map.
+- Budget-based categorization of café/restaurants.
+- Ability to view detailed information about selected café/restaurants.
+
+3.2 Non-Functional Requirements:
+- Minimalist design and simple functionality focusing on the main task.
+- User-friendly interface adhering to Flat Design principles.
+
+4. Major Features and Descriptions
+1. Interactive Map Visualization:
+   - Feature: Display of all café/restaurants in Harrisburg with color-coded markers.
+   - Relation to Product: Enhances user experience by providing a visual guide to café/restaurants locations and pricing.
+ 
+2. Price Category Visualization:
+   - Feature: Differentiation of café/restaurants based on price categories using color codes.
+   - Relation to Product: Assists users in making budget-conscious decisions.
+ 
+3. Detailed Information on Demand:
+   - Feature: Popup information windows showing details about each bar.
+   - Relation to Product: Offers convenience by providing essential information without navigating away from the map.
+ 
+4. User-Friendly Interface:
+   - Feature: Easy-to-use web interface with clear markers and information.
+   - Relation to Product: Ensures accessibility for users with varying levels of tech-savviness.
+ 
+5. Testing Strategy
+Unit Testing: Key modules, such as the color-coding algorithm and data retrieval functions, will undergo rigorous unit tests.
+System Testing: After completion, a system test will be conducted to ensure all features work harmoniously and meet the functional and non-functional requirements.

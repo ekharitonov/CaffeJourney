@@ -1,0 +1,83 @@
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/codespace/.ssh/id_rsa): 
+Created directory '/home/codespace/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/codespace/.ssh/id_rsa
+Your public key has been saved in /home/codespace/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:26/yeHvUkKkicQ+wOJjkSLpummI6vnPZdWbqqYjHVzE codespace@codespaces-60039f
+The key's randomart image is:
++---[RSA 4096]----+
+|                 |
+| ..   .          |
+|o+ o . o     o   |
+|o + o oEo   +    |
+| .   . oSo . o   |
+|.     .o.*o . .  |
+|. . o o.*...     |
+|o*.=.o .o....    |
+|@==...oo.+++.    |
++----[SHA256]-----+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDUcsPDAW1rW5Xdj+cerfyBZE6kIvQDgruyEMVpRAFn6iGMtDIb2dhpOQ7SGZ1F9OGzprGotRmLhNYvbF6W2J1ZLyfI4nVA0E00nsx2+jLAzu4Akms6UNxYmwpF5lwSGkuN7WT7lM3OInBtJS0ivgPDWBl7sxRBGkQia4zvQ8q0QPsELyOg8loWDo9q5TfsCfUDakihvpxobRHy1wAT4XVOtheQS2EtUqbGHSJFVrrK5lVpJ9bQyzLat27mKN7E1nV/DE9IYPWBWHS+PI+f9Z0SgfE3Z8xAX7dDn7HbzTErO62aHHuWbEz6g3g5yK/rz+XHUXx2T6BIuXLjmzTldi6xaMYZGIjmQ5a5rsDxd2hyK0BGo20mr5mdjwu6yCpGKsAluqvcAS0oub4rqrSFXDYaWlM/HetUZhP6DCbqevblV6X8OlcECDkQCj+yTHPItTOlt47qMkSVOSexof8Zo3RND3X8/DxIlZOcBoyONoSZGVHC2N/W16OQ/eH+u9hgfsbys7EH0hivaPS70ljG/zCEdGU7PYVAxz7S5iEvERy1peLrDhnDmhNg7yjKnwFtYhuzVXjsZwY+JutyR8GJSzflwN4y9x2VHpWar+U1ZRsdu5c5soRlvPkDpLBwXWwH5iWvAPIXm7jctKbtGpK5XnOV6EFxeQh4y0qjj14sL1pucQ== codespace@codespaces-60039f
+
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+-----END OPENSSH PRIVATE KEY-----
+
+eval "$(ssh-agent -s)"
+Agent pid 79828
+
+ssh-add ~/.ssh/id_rsa
+Identity added: /home/codespace/.ssh/id_rsa (codespace@codespaces-60039f)
+
+cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDUcsPDAW1rW5Xdj+cerfyBZE6kIvQDgruyEMVpRAFn6iGMtDIb2dhpOQ7SGZ1F9OGzprGotRmLhNYvbF6W2J1ZLyfI4nVA0E00nsx2+jLAzu4Akms6UNxYmwpF5lwSGkuN7WT7lM3OInBtJS0ivgPDWBl7sxRBGkQia4zvQ8q0QPsELyOg8loWDo9q5TfsCfUDakihvpxobRHy1wAT4XVOtheQS2EtUqbGHSJFVrrK5lVpJ9bQyzLat27mKN7E1nV/DE9IYPWBWHS+PI+f9Z0SgfE3Z8xAX7dDn7HbzTErO62aHHuWbEz6g3g5yK/rz+XHUXx2T6BIuXLjmzTldi6xaMYZGIjmQ5a5rsDxd2hyK0BGo20mr5mdjwu6yCpGKsAluqvcAS0oub4rqrSFXDYaWlM/HetUZhP6DCbqevblV6X8OlcECDkQCj+yTHPItTOlt47qMkSVOSexof8Zo3RND3X8/DxIlZOcBoyONoSZGVHC2N/W16OQ/eH+u9hgfsbys7EH0hivaPS70ljG/zCEdGU7PYVAxz7S5iEvERy1peLrDhnDmhNg7yjKnwFtYhuzVXjsZwY+JutyR8GJSzflwN4y9x2VHpWar+U1ZRsdu5c5soRlvPkDpLBwXWwH5iWvAPIXm7jctKbtGpK5XnOV6EFxeQh4y0qjj14sL1pucQ== codespace@codespaces-60039f

@@ -1,0 +1,11 @@
+/workspaces/cisc593-project/exec filter=lfs diff=lfs merge=lfs -text lockable
+/bin/bash/google-cloud-sdk/bin/anthoscli filter=lfs diff=lfs merge=lfs -text
+exec[[:space:]]-l[[:space:]]/bin/bash/google-cloud-sdk/.install/.backup/data/cli/gcloud.json filter=lfs diff=lfs merge=lfs -text
+/workspaces/cisc593-project/exec[[:space:]]-l[[:space:]]/bin/bash/google-cloud-sdk/.install/.backup/data/cli/gcloud.json filter=lfs diff=lfs merge=lfs -text
+exec[[:space:]]-l[[:space:]]/bin/bash/google-cloud-sdk/bin/anthoscli filter=lfs diff=lfs merge=lfs -text
+exec[[:space:]]-l[[:space:]]/bin/bash/google-cloud-sdk/data/cli/gcloud.json filter=lfs diff=lfs merge=lfs -text
+/workspaces/cisc593-project/exec[[:space:]]-l[[:space:]]/bin/bash/google-cloud-sdk/bin/anthoscli filter=lfs diff=lfs merge=lfs -text
+/workspaces/cisc593-project/exec[[:space:]]-l[[:space:]]/bin/bash/google-cloud-sdk/data/cli/gcloud.json filter=lfs diff=lfs merge=lfs -text
+/bin/bash/google-cloud-sdk/.install/.backup/data/cli/gcloud.json filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.cli filter=lfs diff=lfs merge=lfs -text

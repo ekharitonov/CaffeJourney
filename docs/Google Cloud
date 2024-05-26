@@ -1,0 +1,48 @@
+To connect your GitHub Codespace with Google Cloud SDK, you need to follow these steps:
+
+1. Install Google Cloud SDK in Codespace: First, ensure that the Google Cloud SDK is installed in your GitHub Codespace environment. You can install it by running the following command in your Codespace terminal:
+
+   ```bash
+   curl https://sdk.cloud.google.com | bash
+   exec -l $SHELL
+   gcloud init
+   ```
+
+   This script downloads the SDK, installs it, and initializes it. During initialization, you will be prompted to log in to your Google Cloud account and set up your cloud project.
+
+2. Authenticate with Google Cloud: After installing the SDK, you need to authenticate your Codespace environment with Google Cloud. Run the following command:
+
+   ```bash
+   gcloud auth login
+   ```
+
+   This command opens a new browser window asking you to log in to your Google account and grant the necessary permissions. Once authenticated, your Codespace environment will have access to your Google Cloud resources.\
+
+
+You are seeing this page because you ran the following command in the gcloud CLI from this or another machine. If this is not the case, close this tab.
+
+gcloud auth login --no-launch-browser
+
+Enter the following verification code in gcloud CLI on the machine you want to log into. This is a credential similar to your password and should not be shared with others.
+
+4/0AfJohXnTdTJNbjfjUli40SOfqoXf-8WQiLbxmHppV7Q_RTiXvflmfgyJKJPYUpHXEUwlRw
+
+3. Set Project and Configure SDK: Set your Google Cloud project within your Codespace environment:
+
+   ```bash
+   gcloud config set project cisc593
+   ```
+
+4. Use Google Cloud SDK: Now, you can use Google Cloud SDK commands in your Codespace terminal to interact with your Google Cloud resources, deploy applications, manage storage, and more.
+
+5. Optional - Service Account: For continuous integration or automated workflows, consider using a service account with limited permissions for security. You can create a service account in the Google Cloud Console, download its key file, and use it in your Codespace environment.
+
+   To authenticate using a service account key file, use:
+
+   ```bash
+   gcloud auth activate-service-account --key-file=PATH_TO_KEY_FILE.json
+   ```
+
+Remember to replace `PATH_TO_KEY_FILE.json` with the path to your service account key file.
+
+6. Persist Configuration: If you want your Google Cloud SDK configuration to persist across Codespace sessions, you may need to commit certain configuration files to your repository or use environment variables for sensitive data like keys.
